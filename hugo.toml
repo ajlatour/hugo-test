@@ -1,3 +1,17 @@
 baseURL = 'https://example.org/'
 locale = 'en-us'
 title = 'My New Hugo Project'
+theme = 'PaperMod'
+
+[params]
+  env = 'production'
+  defaultTheme = 'auto'
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+
+[minify]
+  disableXML = true
